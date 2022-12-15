@@ -1,0 +1,17 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://webservice.0098sms.com/service.asmx"
+    ],
+    "collectionTypes": [
+      "System.Collections.Generic.Dictionary`2",
+      "System.Collections.Generic.List`1"
+    ],
+    "internalTypeAccess": true,
+    "namespaceMappings": [
+      "*, ServiceReference1"
+    ],
+    "targetFramework": "netstandard2.1",
+    "typeReuseMode": "None"
+  }
+}
