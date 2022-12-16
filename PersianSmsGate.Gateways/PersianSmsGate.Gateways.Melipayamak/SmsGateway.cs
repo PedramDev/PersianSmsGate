@@ -38,5 +38,10 @@ namespace Melipayamak
 
             //return response;
         }
+
+        public Task<SmsGateResult> SendPattern(string mobile, string pattern, Dictionary<string, string> fields)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

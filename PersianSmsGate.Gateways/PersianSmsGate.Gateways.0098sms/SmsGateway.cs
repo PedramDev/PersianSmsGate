@@ -3,7 +3,7 @@ using ServiceReference1;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace _0098sms
+namespace PersianSmsGate.Gateways._0098sms
 {
     public class SmsGateway : ISmsGateway
     {
@@ -26,6 +26,11 @@ namespace _0098sms
             var smsResult = await client.SendSMSAsync(_username, _password, message, mobile, _from);
 
             return response;
+        }
+
+        public Task<SmsGateResult> SendPattern(string mobile, string pattern, Dictionary<string, string> fields)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
